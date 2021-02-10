@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer async></script>
+  <title>Ejercicio_2</title>
+</head>
+<body>
+  <form action="conexion.php" method="post" id="form">
+
+    <label for="usuario">Usuario:</label>
+    <input type="text" name="usuario" id="usuario">
+
+    <label for="departamento">Departamento:</label>
+    <select name="departamento" id="departamento">
+      <option value="informatica">Informática</option>
+      <option value="marketint">Marketing</option>
+      <option value="ventas">Ventas</option>
+    </select>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+
+    <button>Enviar</button>
+    <input type="reset" value="Resetear">
+  </form>
+</body>
+</html>
